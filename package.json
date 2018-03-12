@@ -1,13 +1,13 @@
 {
-  "name": "gifsicle-stream",
-  "version": "0.3.1",
+  "name": "gifsicle-lossy-stream",
+  "version": "0.0.1",
   "description": "The gifsicle command line utility as a readable/writable stream.",
   "main": "lib/Gifsicle.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "gifsicle": "^3.0.0",
+    "giflossy": "^3.0.41",
     "memoizeasync": "^0.8.0",
     "which": "^1.0.9"
   },
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/oohnoitz/node-gifsicle-stream.git"
+    "url": "git://github.com/pedro-gutierrez/node-gifsicle-stream.git"
   },
   "keywords": [
     "gifsicle",
@@ -29,6 +29,6 @@
     "optimization",
     "stream"
   ],
-  "author": "Hung Tran <oohnoitz@gmail.com>",
+  "author": "Pedro Gutierrez <pedrogutierrez@mac.com>",
   "license": "BSD"
 }
